@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  min-width: 960px;
+  color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #252526;
+    width: 100%;
+
+}
+
+.container {
+    width: 1400;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+header {
+    padding: 70px 0;
+
+}
+
+header .ALTAI, footer .blocks .ALTAI {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 650;
+    color: linear-gradient(90deg, rgba(245,235,2,1) 0%, rgba(46,45,45,1) 75%);
+}
+
+
+header nav {
+    float: right;
+    width: 75%;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+header nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {color: #fff;}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 56px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+
+}
+
+header nav ul li.active1::after {
+    content: '';
+    display: block;
+    width: 170px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+header nav ul li.active2::after {
+    content: '';
+    display: block;
+    width: 90px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+header nav ul li.active3::after {
+    content: '';
+    display: block;
+    width: 145px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+header nav ul li.active4::after {
+    content: '';
+    display: block;
+    width: 135px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+
+
+header nav ul li:not(.active):not(.active1):not(.active2):not(.active3):not(.active4):not(.btn) a:hover {
+    border-bottom: 2px solid #F5EB01
+}
+
+header nav ul li.btn a {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    transition: all 500ms ease;
+
+}
+
+header nav ul li.btn a:hover {
+    background: #50B2A7;
+}
+
+.hero {
+    padding-bottom: 100px;
+
+}
+
+.herro {
+    padding-bottom: 200px;
+}
+
+.hero--into {
+    width: 1200px;
+    height: 360px;
+    padding-top: 70px;
+
+}
+
+
+.hero--into h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+.hero--into h2 {
+    color: #fff;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.hero--into p {
+    color: #50B2A7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 590px;
+    padding-top: 65px;
+}
+
+.herro--info .btn1 {
+    position: relative;
+    top: -100px;
+    background: #F5EB01;
+    color: #262626;
+    font-size: 16px;
+    font-family: Montserrat;
+    border-radius: 40px;
+    padding: 10px 55px;
+    border: 0;
+    transition: all 500ms ease;
+    
+} 
+
+.herro--info .btn1:hover {
+    transform: scale(1.1);
+}
+
+.herro--info .btn2 {
+
+    position: relative;
+    top: -100px;
+    color: #50B2A7;
+    font-size: 16px;
+    font-family: Montserrat;
+    border-radius: 40px;
+    padding: 10px 45px;
+    border:  inside 5px;
+    border-color: #50B2A7;
+    background:0;
+    margin-left: 50px;
+   
+} 
+.herro--info .btn2:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Секция с популярными местами*/
+.trending {
+    padding-top: 20px ;
+}
+.trending h3 {
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+    
+
+    
+}
+.trending .see-all {
+    position: relative;
+    margin-top: -100px;
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    float: right;
+    margin-right: 800px;
+    display: block;
+    transition: all 500ms ease;
+
+}
+.trending .see-all:hover {
+   transform: scale(1.1);
+}
+
+.trending .places {
+    position: relative;
+    margin-top: -100px;
+    display: flex;
+    inline-size: 30px;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 2px 0;
+    margin-bottom: 40px;
+}
+.trending .places span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+/*Секция с построением маршрута*/ 
+
+/*Секция с обратной связью*/ 
+
+.feedback {
+    padding: 60px 0;
+}
+.feedback h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top:-50px;
+}
+.feedback p {
+    text-align: center;
+    font-size: 30px;
+    margin-top:5px;
+}
+
+.feedback form {
+    margin: 80px auto;
+    width: 600px;
+}
+
+.feedback form .inline {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feedback form .inline > div {
+    width: 50%;
+}
+
+.feedback form label {
+    color: #F5EB01;
+    font-size: 16px ;
+}
+
+.feedback form input,
+.feedback form textarea {
+    background:#696969;
+    border-radius: 10px;
+    border: 0.6px solid #808080;
+    display: block;
+    width: 90%;
+    padding: 15px 10px;
+    outline: none;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.feedback form .one-line {
+    width: 96%;
+}
+
+.feedback form textarea {
+    resize: none;
+    height: 200px;
+    font-family: arial;
+}
+.feedback form button {
+    background: #F5EB01;
+    border-radius: 5px;
+    border: 0;
+    float: right;
+    cursor: pointer;
+    color: #000;
+    padding: 15px 35px;
+    font-family: Montserrat;
+    transition: all 500ms ease;
+}
+.feedback form button:hover {
+    transform: scale(1.1);
+}
+
+
+.kartinka {
+
+    position: relative;
+    margin-left: 800px;
+}
+/* Секция с популярными местами на самой странице*/
+.container1 {
+    margin-left: 40px;
+}
+
+.places11 {
+    padding-top: 1px ;
+    margin-top: -500px;
+   
+}
+.places11 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+}
+.places11 p {
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+    
+}
+.places11 .wow {
+    position: relative;
+    width: 600px;
+    padding: 30px 0;
+}
+.woow .btn3 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 110px;
+    transition: all 500ms ease;
+}
+.woow .btn3:hover {
+    transform: scale(1.1);
+}
+.container2 {
+    margin-left: 40px;
+}
+.places12 {
+    padding-top: 150px ;
+}
+.places12 h3 {
+   
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+    
+}
+.places12 p {
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+    
+    
+    
+}
+.places12 .wow1 {
+    position: relative;
+    width: 600px;
+    padding: 30px 0;
+}
+
+
+.woow .btn4 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 110px;
+    transition: all 500ms ease;
+    
+}
+.woow .btn4:hover {
+    transform: scale(1.1);
+}
+.woow .btn41 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 110px;
+    transition: all 500ms ease;
+    margin-bottom: 40px;
+
+    
+}
+.woow .btn41:hover {
+    transform: scale(1.1);
+}
+
+
+/*Пункты размещения*/
+.container22 {
+    margin-left: 80px;
+}
+.points1 {
+    padding-top: 1px ;
+    margin-top: -500px;
+    margin-left: 13px;
+
+}
+.points1 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+}
+
+.points1 .wow {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.woow .btn5 {
+   
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+}
+.woow .btn5:hover {
+    transform: scale(1.1);
+}
+.container222 {
+    margin-left: 80px;
+}
+.points2 {
+    padding-top: 150px ;
+    margin-left: 12px;
+
+}
+.points2 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+}
+
+.points2 .wow1 {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.woow .btn6 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    margin-bottom: 40px;
+}
+.woow .btn6:hover {
+    transform: scale(1.1);
+}
+.woow .btn61 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    margin-bottom: 40px;
+}
+.woow .btn61:hover {
+    transform: scale(1.1);
+}
+
+/* Секция с развлечениями*/
+
+
+.container3 {
+    margin-left: 80px;
+}
+.entertainment1 {
+    padding-top: 1px ;
+    margin-top: -530px;
+    margin-left: 13px;
+
+}
+.entertainment1 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+
+}
+.entertainment1 p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+
+}
+
+.entertainment1 .wow {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.woow .btn7 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    
+}
+.woow .btn7:hover {
+    transform: scale(1.1);
+}
+.entertainment2 {
+    padding-top: 150px ;
+    margin-left: 6px;
+
+}
+.entertainment2 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+
+}
+.entertainment2 p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.entertainment2 .wow1 {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.woow .btn8 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+   
+    
+}
+.woow .btn8:hover {
+    transform: scale(1.1);
+}
+.woow .btn81 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    margin-bottom: 40px;
+    
+}
+.woow .btn81:hover {
+    transform: scale(1.1);
+}
+/*Секция с событиями*/
+
+.container4 {
+    margin-left: 80px;
+}
+.info1 {
+    padding-top: 1px ;
+    margin-top: -530px;
+    margin-left: 13px;
+
+}
+.info1 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+
+}
+.info1 p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.info1 .wow {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+
+.info2 {
+    padding-top: 150px ;
+    margin-left: 6px;
+
+}
+.info2 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+
+}
+.info2  p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.info2  .wow1 {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.info2  .wow11 {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+
+}
+
+ /*Секция с готовыми маршрутами*/
+ .container5 {
+    margin-left: 80px;
+}
+.readyroutes1 {
+    padding-top: 1px ;
+    margin-top: -530px;
+    margin-left: 13px;
+
+}
+.readyroutes1 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+
+}
+.readyroutes1 p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.readyroutes1 .wow {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.woow .btn9 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    
+}
+.woow .btn9:hover {
+    transform: scale(1.1);
+}
+.readyroutes2 {
+    padding-top: 150px ;
+    margin-left: 6px;
+
+}
+.readyroutes2 h3 {
+    
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+
+}
+.readyroutes2 p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 15px ;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.readyroutes2 .wow1 {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+}
+.woow .btn10 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    
+    
+}
+.woow .btn10:hover {
+    transform: scale(1.1);
+}
+.woow .btn1010 {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-family: Montserrat;
+    border: 0;
+    font-size: 16px;
+    margin-left: 140px;
+    transition: all 500ms ease;
+    margin-bottom: 40px;
+    
+}
+.woow .btn1010:hover {
+    transform: scale(1.1);
+}
+
+.map {
+    margin-left: 400px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+.routes h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    color: #F5EB01;
+
+}
+
+
+
+
+/* Footer*/
+footer {
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks p {
+    width: 700px;
+    margin: 15px 0;
+    font-size: 16px;
+}
+footer .blocks h4 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer hr {
+    margin: 20px 0;
+    border: 0;
+    height: 0.6px;
+    background: #252526;
+}
+
+footer > p {
+    text-align: center;
+
+}
+
+
