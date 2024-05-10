@@ -5,6 +5,264 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALTAI TRAVEL</title>
     <link rel="stylesheet" href="main.css">
+      <style> 
+         {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  min-width: 960px;
+  color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #252526;
+    width: 100%;
+
+}
+
+.container {
+    width: 1400;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+header {
+    padding: 70px 0;
+
+}
+
+header .ALTAI, footer .blocks .ALTAI {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 650;
+    color: linear-gradient(90deg, rgba(245,235,2,1) 0%, rgba(46,45,45,1) 75%);
+}
+
+
+header nav {
+    float: right;
+    width: 75%;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+header nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {color: #fff;}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 56px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+
+}
+
+header nav ul li.active1::after {
+    content: '';
+    display: block;
+    width: 170px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+header nav ul li.active2::after {
+    content: '';
+    display: block;
+    width: 90px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+header nav ul li.active3::after {
+    content: '';
+    display: block;
+    width: 145px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+header nav ul li.active4::after {
+    content: '';
+    display: block;
+    width: 135px;
+    margin-top: 10px;
+    height: 4px;
+    background: #F5EB01;
+    border-radius: 10px;
+}
+
+
+header nav ul li:not(.active):not(.active1):not(.active2):not(.active3):not(.active4):not(.btn) a:hover {
+    border-bottom: 2px solid #F5EB01
+}
+
+header nav ul li.btn a {
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    transition: all 500ms ease;
+
+}
+
+header nav ul li.btn a:hover {
+    background: #50B2A7;
+}
+
+.hero {
+    padding-bottom: 100px;
+
+}
+
+.herro {
+    padding-bottom: 200px;
+}
+
+.hero--into {
+    width: 1200px;
+    height: 360px;
+    padding-top: 70px;
+
+}
+
+
+.hero--into h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+.hero--into h2 {
+    color: #fff;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.hero--into p {
+    color: #50B2A7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 590px;
+    padding-top: 65px;
+}
+
+.herro--info .btn1 {
+    position: relative;
+    top: -100px;
+    background: #F5EB01;
+    color: #262626;
+    font-size: 16px;
+    font-family: Montserrat;
+    border-radius: 40px;
+    padding: 10px 55px;
+    border: 0;
+    transition: all 500ms ease;
+    
+} 
+
+.herro--info .btn1:hover {
+    transform: scale(1.1);
+}
+
+.herro--info .btn2 {
+
+    position: relative;
+    top: -100px;
+    color: #50B2A7;
+    font-size: 16px;
+    font-family: Montserrat;
+    border-radius: 40px;
+    padding: 10px 45px;
+    border:  inside 5px;
+    border-color: #50B2A7;
+    background:0;
+    margin-left: 50px;
+   
+} 
+.herro--info .btn2:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Секция с популярными местами*/
+.trending {
+    padding-top: 20px ;
+}
+.trending h3 {
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: -100px ;
+    
+
+    
+}
+.trending .see-all {
+    position: relative;
+    margin-top: -100px;
+    background: #F5EB01;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #262626;
+    float: right;
+    margin-right: 800px;
+    display: block;
+    transition: all 500ms ease;
+
+}
+.trending .see-all:hover {
+   transform: scale(1.1);
+}
+
+.trending .places {
+    position: relative;
+    margin-top: -100px;
+    display: flex;
+    inline-size: 30px;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 2px 0;
+    margin-bottom: 40px;
+}
+.trending .places span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+      </style>
    </head>
     <body>
      <div class="wrapper">
